@@ -7,15 +7,15 @@
 <body>
   <nav>
     <ul>
-      <li><a href="sethdaniel89.github.io/index.html">Home</a></li>
+      <li><a href="/index.html">Home</a></li>
       <li><a href="photos/photos.html">Photos</a></li>
-      <li><a href="sethdaniel89.github.io/resources.html"></a>Resources</li>
-      <li><a href="sethdaniel89.github.io/contacts.html"></a>Contacts</li>
+      <li><a href="/resources.html"></a>Resources</li>
+      <li><a href="/contacts.html"></a>Contacts</li>
     </ul>
   </nav>
 
   <h1 style="text-align:center"> <strong>WHY YOU SHOULD TOTALLY GO TO BURNING MAN</strong></h1>
-  <img src="photos/DSC00030.JPG" alt="the man" style='height: 100%; width: 100%; object-fit: contain'/>
+  <img src="photos/family.jpg" alt="the man" style='height: 50%; width: 50%; object-fit: contain'/>
 
 
   <p style="text-align:center"> Welcome, Bien Venidos, Shalom, Wilkommen, and much more, I can assure you that once you are done navigating your way through this great website, you'll mostly certainly be ready to make a dusty trek to Black Rock City, and experience, what is Burning Man.</p>
@@ -23,17 +23,19 @@
   <p style="text-align:center"> Speaking of Burning Man, do you know anything about it? Would you like to learn a thing or two? How about you click on this link; <a href="http://burningman.org/">Burning Man Home page</a> or this link, for the Wikipedia page, <a href="https://en.wikipedia.org/wiki/Burning_Man">Burning Man</a>.</p>
 
   <p style="text-align:center">I bet you have some questions by now, don't worry we've listed some of the most common ones below:</p>
-  <ul style="text-align:center">
-    <li>What in the heck is Burning Man?<li>
-    <li>Why is it in the middle of the desert?</li>
-    <li>Is it anything like camping?</li>
-    <li>Can I just show up?</li>
-    <li>Is it just a drug frenzied, ravers, dreamland? </li>
-  </ul>
-
   <div align="center">
+    <ul style="text-align:center">
+      <li>What in the heck is Burning Man?<li>
+      <li>Why is it in the middle of the desert?</li>
+      <li>Is it anything like camping?</li>
+      <li>Can I just show up?</li>
+      <li>Is it just a drug frenzied, ravers, dreamland? </li>
+    </ul>
+  </div>
+
+  <div align="center" border="1">
     <p> Feel free to submit your own in the form below. </p>
-    <form name="Have Burning Man Questions?" action="POST">
+    <form name="Have Burning Man Questions?" action="success.html">
       <fieldset>
         <div>
           <label> Question:</label>
@@ -42,6 +44,27 @@
       </fieldset>
       <button type="submit"> Submit your question!!</button>
     </form>
+  </div>
+
+
+  <div>
+    <p>Click the button to open the question entry form.</p>
+
+    <button onclick="myFunction()">Click me Burner to be!</button>
+
+    <p id="demo"></p>
+
+    <script>
+    function myFunction() {
+        var queston = prompt("What's your query", "Ask Away!");
+        if (question != null) {
+            document.getElementById("demo").innerHTML =
+            "Thanks for submitting the following question: " + question + "?";
+        }
+    }
+    </script>
+
+
   </div>
 
 </body>
