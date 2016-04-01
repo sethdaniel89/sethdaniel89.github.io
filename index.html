@@ -4,7 +4,8 @@
 <head>
   <title style="text-align:center">Why You Should Totally Go To Burning Man - Home</title>
 </head>
-<body>
+<body background="https://www.fest300.com/system/images/W1siZiIsIjIwMTQvMDYvMTUvMjMvNDcvNTQvNDc3L0J1cm5pbmdfTWFuXzIwMTNfU2lkbmV5X0VydGhhbF8yLmpwZyJdXQ/Burning_Man_2013_Sidney_Erthal%20-%202.jpg">
+
   <nav>
     <ul>
       <li><a href="/index.html">Home</a></li>
@@ -15,16 +16,16 @@
   </nav>
 
   <h1 style="text-align:center"> <strong>WHY YOU SHOULD TOTALLY GO TO BURNING MAN</strong></h1>
-  <img src="photos/family.jpg" alt="the man" style='height: 50%; width: 50%; object-fit: contain'/>
+  <div align="center" border="1"><img src="photos/family.jpg" alt="the man" style='height: 50%; width: 50%; object-fit: contain'/></div>
 
 
   <p style="text-align:center"> Welcome, Bien Venidos, Shalom, Wilkommen, and much more, I can assure you that once you are done navigating your way through this great website, you'll mostly certainly be ready to make a dusty trek to Black Rock City, and experience, what is Burning Man.</p>
 
   <p style="text-align:center"> Speaking of Burning Man, do you know anything about it? Would you like to learn a thing or two? How about you click on this link; <a href="http://burningman.org/">Burning Man Home page</a> or this link, for the Wikipedia page, <a href="https://en.wikipedia.org/wiki/Burning_Man">Burning Man</a>.</p>
 
-  <p style="text-align:center">I bet you have some questions by now, don't worry we've listed some of the most common ones below:</p>
-  <div align="center">
-    <ul style="text-align:center">
+  <p>I bet you have some questions by now, don't worry we've listed some of the most common ones below:</p>
+  <div border="1">
+    <ul>
       <li>What in the heck is Burning Man?<li>
       <li>Why is it in the middle of the desert?</li>
       <li>Is it anything like camping?</li>
@@ -47,7 +48,7 @@
   </div>
 
 
-  <div>
+  <div align="center">
     <p>Click the button to open the question entry form.</p>
 
     <button onclick="myFunction()">Click me Burner to be!</button>
@@ -56,7 +57,8 @@
 
     <script>
     function myFunction() {
-        var queston = prompt("What's your query", "Ask Away!");
+        var queston = prompt("What's your query?", "Ask Away!");
+        var thanks = prompt("Thanks!!")
         if (question != null) {
             document.getElementById("demo").innerHTML =
             "Thanks for submitting the following question: " + question + "?";
@@ -66,6 +68,7 @@
 
 
   </div>
+  <p>The background image is from <a href="https://www.fest300.com/">FEST300</a>'s website titled <a href="https://www.fest300.com/magazine/an-emotional-survival-guide-to-burning-man">AN EMOTIONAL SURVIVAL GUIDE TO BURNING MAN</a>.</p>
 
 </body>
 </html>
