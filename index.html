@@ -56,10 +56,6 @@ div p {
   font-size: 10px;
 }
 
-div p a {
-  font-size: 12px;
-}
-
 h2 {
   color: white;
 }
@@ -91,7 +87,7 @@ iframe {
 
   <div align="center">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/5Ze1duv8iqE" frameborder="0" allowfullscreen></iframe>
-    <p><a href="https://www.youtube.com/channel/UCmzdNp-KxUJ-fNpeZSnmLxA">Dr. Yes'</a> annual   video of Burning Man. Enjoy, and check out more videos on my Burning Man <a href="http://burn.life">site</a>.</p>
+    <h6><a href="https://www.youtube.com/channel/UCmzdNp-KxUJ-fNpeZSnmLxA">Dr. Yes'</a> annual   video of Burning Man. Enjoy, and check out more videos on my Burning Man <a href="http://burn.life">site</a>.</h6>
   </div>
 
 
@@ -120,43 +116,39 @@ iframe {
   </div>
 
 
-  <div align="center">
-    <h6>Click the button to open the question entry form.</h6>
-
-    <button onclick="myFunction()">Click me Burner to be!</button>
-
-    <p id="demo"></p>
-
-    <script>
-    function myFunction() {
-        var queston = prompt("What's your query?", "Ask Away!");
-        var thanks = "Thanks!!"
-        if (question != null) {
-            document.getElementById("demo").innerHTML =
-            "Thanks for submitting the following question: " + question + "?";
-        }
-    }
-    </script>
-
-
-  </div>
-
-
     <h2 style="text-align:center">Feel free to reach out to me through any or all forms of media     below:</h2>
 
        <div align="center" border="1"><img src="photos/cohesion.jpg" alt="cohesion" style='height:    40%; width: 40%; object-fit: contain'/></div>
 
-       <ul>
-        <li> Email: seth.daniel.goldman@gmail.com </li>
-        <li> Phone: (646) 217-8734 </li>
-        <li> <a href="https://www.facebook.com/seth.goldman.9">Facebook</a> </li>
-        <li> <a href="https://twitter.com/Sdgoldies">Twitter</a></li>
-        <li> <a href="https://www.instagram.com/goldmanstagram/">Instagram</a></li>
-      </ul>
+       <div>
+        <ul>
+          <li> Email: seth.daniel.goldman@gmail.com </li>
+          <li> Phone: (646) 217-8734 </li>
+          <li> <a href="https://www.facebook.com/seth.goldman.9">Facebook</a> </li>
+          <li> <a href="https://twitter.com/Sdgoldies">Twitter</a></li>
+          <li> <a href="https://www.instagram.com/goldmanstagram/">Instagram</a></li>
+        </ul>
+      </div>
 
 
+      <div align="center">
+        <h6>Click the button to open the question entry form.</h6>
 
+        <button onclick="myFunction()">Click me Burner to be!</button>
 
+        <p id="demo"></p>
+
+        <script>
+        function myFunction() {
+            var queston = prompt("What's your query?", "Ask Away!");
+            var thanks = "Thanks!!"
+            if (question != null) {
+                document.getElementById("demo").innerHTML =
+                "Thanks for submitting the following question: " + question + "?";
+            }
+        }
+        </script>
+      </div>
 
 
   <div border="1">
