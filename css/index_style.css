@@ -27,13 +27,15 @@ a#link {
 
 
 h1#title {
+  align: center;
   opacity: 0.6;
   font-style: bold;
   font-style: underline;
   text-align: center;
   background-color: #e0ffff;
   border-radius: 0.25em;
-  position: fixed;
+  horizontal-align: center;
+  vertical-align: center;
 }
 
 article.page_text {
@@ -44,6 +46,8 @@ article.page_text {
   width: 50%;
   height: 50%;
   text-align: center;
+  horizontal-align: center;
+  vertical-align: center;
 }
 
 h6#vid_text {
@@ -52,44 +56,69 @@ h6#vid_text {
   background-color: #e0ffff;
   border-radius: 0.25em;
   border: 2 solid black;
+  width: 50%;
+  height: 50%;
   text-align: center;
+  horizontal-align: center;
+  vertical-align: center;
+  color: black;
 }
 
-div ul li {
-  color: white;
+div.questions {
+  opacity: 0.6;
+  font-size: 0.85em;
+  background-color: #e0ffff;
+  border-radius: 0.25em;
+  border: 2 solid black;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  horizontal-align: center;
+  vertical-align: center;
+  color: black;
 }
 
-li {
-  color: white;
+h6#text {
+  opacity: 0.6;
+  font-size: 0.85em;
+  background-color: #e0ffff;
+  border-radius: 0.25em;
+  border: 2 solid black;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  horizontal-align: center;
+  vertical-align: center;
+  color: black;
 }
 
 label {
-  color: white;
-}
-
-input {
+  opacity: 0.6;
+  font-size: 0.85em;
+  background-color: #e0ffff;
+  border-radius: 0.25em;
+  border: 2 solid black;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  horizontal-align: center;
+  vertical-align: center;
   color: black;
 }
 
-button {
+
+h2#text {
+  opacity: 0.6;
+  font-size: 0.85em;
+  background-color: #e0ffff;
+  border-radius: 0.25em;
+  border: 2 solid black;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  horizontal-align: center;
+  vertical-align: center;
   color: black;
-}
-
-div button {
-  color: black;
-}
-
-div h6 {
-  font-size: 16px;
-  color: white;
-}
-
-div p {
-  font-size: 10px;
-}
-
-h2 {
-  color: white;
 }
 
 iframe {
@@ -101,10 +130,13 @@ div.contact {
   background-color: #e0ffff;
   border-radius: 0.25em;
   border: 2 solid black;
+  width: 50%;
+  height: 50%;
+  horizontal-align: center;
+  vertical-align: center;
 }
 
 li#email {
-  opacity: 0.6;
   color: black;
   font-style: bold;
   display: inline-block;
@@ -119,7 +151,6 @@ li#email {
 }
 
 li#number {
-  opacity: 0.6;
   color: black;
   font-style: bold;
   display: inline-block;
@@ -134,7 +165,6 @@ li#number {
 }
 
 li#facebook {
-  opacity: 0.6;
   color: black;
   font-style: bold;
   display: inline-block;
@@ -149,7 +179,6 @@ li#facebook {
 }
 
 li#twitter {
-  opacity: 0.6;
   color: black;
   font-style: bold;
   display: inline-block;
@@ -164,7 +193,6 @@ li#twitter {
 }
 
 li#instagram {
-  opacity: 0.6;
   color: black;
   font-style: bold;
   display: inline-block;
