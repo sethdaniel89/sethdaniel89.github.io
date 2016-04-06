@@ -1,0 +1,90 @@
+body {
+  background:url(https://www.fest300.com/system/images/W1siZiIsIjIwMTQvMDYvMTUvMjMvNDcvNTQvNDc3L0J1cm5pbmdfTWFuXzIwMTNfU2lkbmV5X0VydGhhbF8yLmpwZyJdXQ/Burning_Man_2013_Sidney_Erthal%20-%202.jpg); no-repeat; background-attachment: fixed;
+}
+
+nav.navbar {
+  position: fixed;
+  background-color: #e0ffff;
+  border-radius: 0.25em;
+  border: 2 solid black;
+}
+
+a#index {
+  color: black;
+  font-style: bold;
+  display: inline-block;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 0.85em;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75
+}
+
+
+
+h1 {
+  background-color: #e0ffff;
+  border-radius: 0.25em;
+  color: white;
+  position: fixed;
+}
+
+p {
+  color: white;
+}
+
+div ul li {
+  color: white;
+}
+
+li {
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+input {
+  color: black;
+}
+
+button {
+  color: black;
+}
+
+div button {
+  color: black;
+}
+
+div h6 {
+  font-size: 16px;
+  color: white;
+}
+
+div p {
+  font-size: 10px;
+}
+
+h2 {
+  color: white;
+}
+
+iframe {
+  position:
+}
+
+div.contact {
+
+}
+
+li#email {
+
+}
+
+li#number {
+
+}
