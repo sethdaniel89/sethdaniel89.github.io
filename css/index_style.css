@@ -7,71 +7,15 @@ nav.navbar {
   margin: 1px;
   font-family: papyrus;
   opacity: 0.6;
-  position: fixed;
-  background-color: #e0ffff;
   border-radius: 0.25em;
   border: 2 solid black;
 }
 
-a#link1 {
-  float: left;
+a#link {
   font-family: papyrus;
   opacity: 0.6;
   color: black;
   font-style: bold;
-  position: inline;
-  clear: both;
-  background: #3a3f40;
-  color: #fff;
-  font-size: 0.85em;
-  padding: 1em;
-  text-decoration: none;
-  border-radius: 0.25em;
-  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
-}
-
-a#link2 {
-  font-family: papyrus;
-  opacity: 0.6;
-  color: black;
-  font-style: bold;
-  position: inline;
-  clear: both;
-  background: #3a3f40;
-  color: #fff;
-  font-size: 0.85em;
-  padding: 1em;
-  text-decoration: none;
-  border-radius: 0.25em;
-  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
-}
-
-a#link3 {
-  font-family: papyrus;
-  opacity: 0.6;
-  color: black;
-  font-style: bold;
-  position: inline;
-  clear: both;
-  background: #3a3f40;
-  color: #fff;
-  font-size: 0.85em;
-  padding: 1em;
-  text-decoration: none;
-  border-radius: 0.25em;
-  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
-}
-
-a#link4 {
-  font-family: papyrus;
-  opacity: 0.6;
-  color: black;
-  font-style: bold;
-  position: inline;
-  clear: both;
   background: #3a3f40;
   color: #fff;
   font-size: 0.85em;
@@ -85,6 +29,7 @@ a#link4 {
 h1#title {
   font-family: papyrus;
   margin: 0 auto;
+  padding: 40px;
   opacity: 0.6;
   width: 50%;
   height: 50%;
@@ -98,6 +43,7 @@ h1#title {
 article.page_text {
   font-family: papyrus;
   margin: 0 auto;
+  padding: 40px;
   opacity: 0.6;
   background-color: #e0ffff;
   border-radius: 0.25em;
@@ -187,7 +133,6 @@ iframe {
 
 .contact {
   display: inline-block;
-  margin: 1px;
   font-family: papyrus;
   margin: 0 auto;
   opacity: 0.6;
@@ -280,9 +225,9 @@ a#instagram {
   margin: 0 auto;
   width: 175px;
   height: 175px;
-  border-radius: 150px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
+  border-radius: 75px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
   background: url(../photos/cohesion.jpg) no-repeat;
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
