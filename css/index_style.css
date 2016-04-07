@@ -29,6 +29,8 @@ a#link {
 h1#title {
   align: center;
   opacity: 0.6;
+  width: 50%;
+  height: 50%;
   font-style: bold;
   font-style: underline;
   text-align: center;
@@ -39,6 +41,7 @@ h1#title {
 }
 
 article.page_text {
+  align: center;
   opacity: 0.6;
   background-color: #e0ffff;
   border-radius: 0.25em;
@@ -56,8 +59,8 @@ h6#vid_text {
   background-color: #e0ffff;
   border-radius: 0.25em;
   border: 2 solid black;
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
   text-align: center;
   horizontal-align: center;
   vertical-align: center;
@@ -65,8 +68,9 @@ h6#vid_text {
 }
 
 div.questions {
+  align: center;
   opacity: 0.6;
-  font-size: 0.85em;
+  font-size: 1em;
   background-color: #e0ffff;
   border-radius: 0.25em;
   border: 2 solid black;
@@ -84,8 +88,8 @@ h6#text {
   background-color: #e0ffff;
   border-radius: 0.25em;
   border: 2 solid black;
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
   text-align: center;
   horizontal-align: center;
   vertical-align: center;
@@ -108,13 +112,14 @@ label {
 
 
 h2#text {
+  align: center;
   opacity: 0.6;
   font-size: 0.85em;
   background-color: #e0ffff;
   border-radius: 0.25em;
   border: 2 solid black;
-  width: 50%;
-  height: 50%;
+  width: 30%;
+  height: 30%;
   text-align: center;
   horizontal-align: center;
   vertical-align: center;
@@ -130,6 +135,7 @@ div.contact {
   background-color: #e0ffff;
   border-radius: 0.25em;
   border: 2 solid black;
+  padding: 25% 25% 25% 25%;
   width: 50%;
   height: 50%;
   horizontal-align: center;
