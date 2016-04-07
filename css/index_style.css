@@ -3,6 +3,7 @@ body {
 }
 
 nav.navbar {
+  font-family: papyrus;
   opacity: 0.6;
   position: fixed;
   background-color: #e0ffff;
@@ -11,6 +12,8 @@ nav.navbar {
 }
 
 a#link {
+  clear: both;
+  font-family: papyrus;
   opacity: 0.6;
   color: black;
   font-style: bold;
@@ -40,6 +43,7 @@ h1#title {
 }
 
 article.page_text {
+  font-family: papyrus;
   margin: 0 auto;
   opacity: 0.6;
   background-color: #e0ffff;
@@ -51,6 +55,7 @@ article.page_text {
 }
 
 h6#vid_text {
+  font-family: papyrus;
   opacity: 0.6;
   font-size: 0.85em;
   background-color: #e0ffff;
@@ -65,6 +70,7 @@ h6#vid_text {
 }
 
 div.questions {
+  font-family: papyrus;
   margin: 0 auto;
   opacity: 0.6;
   font-size: 1em;
@@ -78,6 +84,7 @@ div.questions {
 }
 
 h6#text {
+  font-family: papyrus;
   opacity: 0.6;
   font-size: 0.85em;
   background-color: #e0ffff;
@@ -92,6 +99,7 @@ h6#text {
 }
 
 label {
+  font-family: papyrus;
   opacity: 0.6;
   font-size: 0.85em;
   background-color: #e0ffff;
@@ -107,6 +115,7 @@ label {
 
 
 h2#text {
+  font-family: papyrus;
   margin: 0 auto;
   opacity: 0.6;
   font-size: 0.85em;
@@ -124,6 +133,8 @@ iframe {
 }
 
 nav.contact {
+  font-family: papyrus;
+  margin: 0 auto;
   opacity: 0.6;
   position: fixed;
   background-color: #e0ffff;
@@ -131,9 +142,27 @@ nav.contact {
   border: 2 solid black;
 }
 
+a#link2 {
+  clear: both;
+  font-family: papyrus;
+  opacity: 0.6;
+  color: black;
+  font-style: bold;
+  display: inline-block;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 0.85em;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+}
+
 .circular_me {
-  width: 300px;
-  height: 300px;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
   border-radius: 150px;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
@@ -144,5 +173,6 @@ nav.contact {
   }
 
   footer {
+    font-family: papyrus;
     font-size: 0.85em;
   }
