@@ -2,9 +2,41 @@ body {
   background:url(https://www.fest300.com/system/images/W1siZiIsIjIwMTQvMDYvMTUvMjMvNDcvNTQvNDc3L0J1cm5pbmdfTWFuXzIwMTNfU2lkbmV5X0VydGhhbF8yLmpwZyJdXQ/Burning_Man_2013_Sidney_Erthal%20-%202.jpg); no-repeat; background-attachment:fixed;
 }
 
-nav ul li a {
+nav.navbar {
+  display: inline-block;
+  margin: 1px;
+  font-family: papyrus;
+  opacity: 0.6;
+  border-radius: 0.25em;
+  border: 2 solid black;
+}
+
+h1#title {
+  font-family: papyrus;
+  margin: 0 auto;
+  opacity: 0.6;
+  width: 75%;
+  height: 75%;
+  font-style: bold;
+  font-style: underline;
+  text-align: center;
+  background-color: #e0ffff;
+  border-radius: 0.25em;
+}
+
+a#link {
+  font-family: papyrus;
+  opacity: 0.6;
   color: black;
   font-style: bold;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 0.85em;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
 }
 
 tr {
@@ -30,24 +62,135 @@ div.image {
 }
 
 span.caption {
-    font-size: 16px;
-    color: white;
-}
-
-h1 {
-  color: white;
+  font-family: papyrus;
+  opacity: 0.6;
+  width: 75%;
+  height: 75%;
+  font-style: bold;
+  font-style: underline;
   text-align: center;
+  background-color: #e0ffff;
+  border-radius: 0.25em;
 }
 
 h3 {
-  color: white;
+  font-family: papyrus;
+  margin: 0 auto;
+  opacity: 0.6;
+  width: 75%;
+  height: 75%;
+  font-style: bold;
+  font-style: underline;
   text-align: center;
+  background-color: #e0ffff;
+  border-radius: 0.25em;
 }
 
-h2 {
-  color: white;
+.contact {
+
+  display: inline-block;
+  font-family: papyrus;
+  margin: 0 auto;
+  opacity: 0.6;
+  background-color: #e0ffff;
+  border-radius: 0.25em;
+  border: 2 solid black;
 }
 
-div p {
-  font-size: 10px;
+a#email {
+  font-family: papyrus;
+  opacity: 0.6;
+  color: black;
+  font-style: bold;
+  display: inline-block;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 0.85em;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
 }
+
+a#number {
+  font-family: papyrus;
+  opacity: 0.6;
+  color: black;
+  font-style: bold;
+  display: inline-block;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 0.85em;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+}
+
+a#facebook {
+  font-family: papyrus;
+  opacity: 0.6;
+  color: black;
+  font-style: bold;
+  display: inline-block;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 0.85em;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+}
+
+a#twitter {
+  font-family: papyrus;
+  opacity: 0.6;
+  color: black;
+  font-style: bold;
+  display: inline-block;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 0.85em;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+}
+
+a#instagram {
+  font-family: papyrus;
+  opacity: 0.6;
+  color: black;
+  font-style: bold;
+  display: inline-block;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 0.85em;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+}
+
+.circular_me {
+  margin: 0 auto;
+  width: 175px;
+  height: 175px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  background: url(../photos/cohesion.jpg) no-repeat;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  }
+
+footer {
+    font-family: papyrus;
+    font-size: 0.85em;
+  }
