@@ -58,7 +58,6 @@ a#link {
   font-family: papyrus;
   margin: 0 auto;
   opacity: 0.6;
-  background-color: #e0ffff;
   border-radius: 0.25em;
   border: 2 solid black;
 }
@@ -156,7 +155,7 @@ a#instagram {
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   }
 
-footer {
+  footer {
     font-family: papyrus;
     font-size: 0.85em;
   }

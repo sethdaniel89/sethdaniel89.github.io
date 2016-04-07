@@ -30,8 +30,8 @@ h1#title {
   font-family: papyrus;
   margin: 0 auto;
   opacity: 0.6;
-  width: 75%;
-  height: 75%;
+  width: 50%;
+  height: 50%;
   font-style: bold;
   font-style: underline;
   text-align: center;
@@ -47,8 +47,8 @@ div.links {
   background-color: #e0ffff;
   border-radius: 0.25em;
   border: 2 solid black;
-  width: 50%;
-  height: 50%;
+  width: 25%;
+  height: 25%;
   text-align: center;
   color: black;
 }
@@ -56,11 +56,11 @@ div.links {
 
 h2#title {
   font-family: papyrus;
-  font-size: 0.95em;
+  font-size: 1em;
   margin: 0 auto;
   opacity: 0.6;
-  width: 75%;
-  height: 75%;
+  width: 25%;
+  height: 25%;
   font-style: bold;
   font-style: underline;
   text-align: center;
@@ -71,11 +71,11 @@ h2#title {
 
 h3#title {
   font-family: papyrus;
-  font-size: 0.75em;
+  font-size: 1em;
   margin: 0 auto;
   opacity: 0.6;
-  width: 75%;
-  height: 75%;
+  width: 25%;
+  height: 25%;
   font-style: bold;
   font-style: underline;
   text-align: center;
@@ -83,13 +83,22 @@ h3#title {
   border-radius: 0.25em;
 }
 
+.burning {
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  background: url(../photos/The_Great_Heads.jpg) no-repeat;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  }
 
 
 h2#text {
   font-family: papyrus;
   margin: 0 auto;
   opacity: 0.6;
-  font-size: 0.50em;
+  font-size: 0.85em;
   background-color: #e0ffff;
   border-radius: 0.25em;
   border: 2 solid black;
@@ -105,7 +114,6 @@ h2#text {
   font-family: papyrus;
   margin: 0 auto;
   opacity: 0.6;
-  background-color: #e0ffff;
   border-radius: 0.25em;
   border: 2 solid black;
 }
@@ -203,7 +211,7 @@ a#instagram {
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   }
 
-footer {
+  footer {
     font-family: papyrus;
     font-size: 0.85em;
   }
