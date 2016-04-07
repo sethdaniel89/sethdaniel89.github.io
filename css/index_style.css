@@ -123,85 +123,26 @@ iframe {
   position:
 }
 
-div.contact {
-  margin: 0 auto;
-}
-
-li#email {
-  color: black;
-  font-style: bold;
-  display: inline-block;
-  background: #3a3f40;
-  color: #fff;
-  font-size: 0.85em;
-  padding: 1em;
-  text-decoration: none;
+nav.contact {
+  opacity: 0.6;
+  position: fixed;
+  background-color: #e0ffff;
   border-radius: 0.25em;
-  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+  border: 2 solid black;
 }
 
-li#number {
-  color: black;
-  font-style: bold;
-  display: inline-block;
-  background: #3a3f40;
-  color: #fff;
-  font-size: 0.85em;
-  padding: 1em;
-  text-decoration: none;
-  border-radius: 0.25em;
-  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
-}
+.circular_me {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url(../photos/cohesion.jpg) no-repeat;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  }
 
-li#facebook {
-  color: black;
-  font-style: bold;
-  display: inline-block;
-  background: #3a3f40;
-  color: #fff;
-  font-size: 0.85em;
-  padding: 1em;
-  text-decoration: none;
-  border-radius: 0.25em;
-  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
-}
-
-li#twitter {
-  color: black;
-  font-style: bold;
-  display: inline-block;
-  background: #3a3f40;
-  color: #fff;
-  font-size: 0.85em;
-  padding: 1em;
-  text-decoration: none;
-  border-radius: 0.25em;
-  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
-}
-
-li#instagram {
-  color: black;
-  font-style: bold;
-  display: inline-block;
-  background: #3a3f40;
-  color: #fff;
-  font-size: 0.85em;
-  padding: 1em;
-  text-decoration: none;
-  border-radius: 0.25em;
-  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
-}
-
-div#me {
-  margin: 0 auto;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-}
+  footer {
+    font-size: 0.85em;
+  }
