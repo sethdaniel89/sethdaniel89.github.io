@@ -30,8 +30,8 @@ h1#title {
   font-family: papyrus;
   margin: 0 auto;
   opacity: 0.6;
-  width: 50%;
-  height: 50%;
+  width: 75%;
+  height: 75%;
   font-style: bold;
   font-style: underline;
   text-align: center;
@@ -131,6 +131,7 @@ iframe {
 }
 
 .contact {
+
   display: inline-block;
   font-family: papyrus;
   margin: 0 auto;
@@ -224,9 +225,9 @@ a#instagram {
   margin: 0 auto;
   width: 175px;
   height: 175px;
-  border-radius: 75px;
-  -webkit-border-radius: 75px;
-  -moz-border-radius: 75px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
   background: url(../photos/cohesion.jpg) no-repeat;
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
