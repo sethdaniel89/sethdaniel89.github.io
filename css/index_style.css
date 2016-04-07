@@ -29,7 +29,6 @@ a#link {
 h1#title {
   font-family: papyrus;
   margin: 0 auto;
-  padding: 40px;
   opacity: 0.6;
   width: 50%;
   height: 50%;
@@ -43,7 +42,7 @@ h1#title {
 article.page_text {
   font-family: papyrus;
   margin: 0 auto;
-  padding: 40px;
+  padding: 20px;
   opacity: 0.6;
   background-color: #e0ffff;
   border-radius: 0.25em;
