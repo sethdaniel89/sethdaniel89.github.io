@@ -3,6 +3,8 @@ body {
 }
 
 nav.navbar {
+  display: inline-block;
+  margin: 1px;
   font-family: papyrus;
   opacity: 0.6;
   position: fixed;
@@ -11,13 +13,14 @@ nav.navbar {
   border: 2 solid black;
 }
 
-a#link {
-  clear: both;
+a#link1 {
+  float: left;
   font-family: papyrus;
   opacity: 0.6;
   color: black;
   font-style: bold;
-  display: inline-block;
+  position: inline;
+  clear: both;
   background: #3a3f40;
   color: #fff;
   font-size: 0.85em;
@@ -28,6 +31,56 @@ a#link {
   text-shadow: 0 1px rgba(0, 0, 0, 0.75);
 }
 
+a#link2 {
+  font-family: papyrus;
+  opacity: 0.6;
+  color: black;
+  font-style: bold;
+  position: inline;
+  clear: both;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 0.85em;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+}
+
+a#link3 {
+  font-family: papyrus;
+  opacity: 0.6;
+  color: black;
+  font-style: bold;
+  position: inline;
+  clear: both;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 0.85em;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+}
+
+a#link4 {
+  font-family: papyrus;
+  opacity: 0.6;
+  color: black;
+  font-style: bold;
+  position: inline;
+  clear: both;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 0.85em;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+}
 
 h1#title {
   font-family: papyrus;
@@ -132,18 +185,82 @@ iframe {
   position:
 }
 
-nav.contact {
+.contact {
+  display: inline-block;
+  margin: 1px;
   font-family: papyrus;
   margin: 0 auto;
   opacity: 0.6;
-  position: fixed;
   background-color: #e0ffff;
   border-radius: 0.25em;
   border: 2 solid black;
 }
 
-a#link2 {
-  clear: both;
+a#email {
+  font-family: papyrus;
+  opacity: 0.6;
+  color: black;
+  font-style: bold;
+  display: inline-block;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 0.85em;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+}
+
+a#number {
+  font-family: papyrus;
+  opacity: 0.6;
+  color: black;
+  font-style: bold;
+  display: inline-block;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 0.85em;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+}
+
+a#facebook {
+  font-family: papyrus;
+  opacity: 0.6;
+  color: black;
+  font-style: bold;
+  display: inline-block;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 0.85em;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+}
+
+a#twitter {
+  font-family: papyrus;
+  opacity: 0.6;
+  color: black;
+  font-style: bold;
+  display: inline-block;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 0.85em;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+}
+
+a#instagram {
   font-family: papyrus;
   opacity: 0.6;
   color: black;
@@ -161,8 +278,8 @@ a#link2 {
 
 .circular_me {
   margin: 0 auto;
-  width: 200px;
-  height: 200px;
+  width: 175px;
+  height: 175px;
   border-radius: 150px;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
