@@ -123,7 +123,6 @@ div.contact {
   background-color: #e0ffff;
   border-radius: 0.25em;
   border: 2 solid black;
-  padding: 25% 25% 25% 25%;
   width: 25%;
   height: 25%;
 }
@@ -199,6 +198,7 @@ li#instagram {
 }
 
 div#me {
+
   background-repeat: no-repeat;
   background-position: 50%;
   border-radius: 50%;
