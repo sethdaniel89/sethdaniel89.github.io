@@ -27,6 +27,7 @@ a#link {
 
 
 h1#title {
+  float: center;
   opacity: 0.6;
   width: 50%;
   height: 50%;
@@ -38,6 +39,7 @@ h1#title {
 }
 
 article.page_text {
+  float: center;
   opacity: 0.6;
   background-color: #e0ffff;
   border-radius: 0.25em;
@@ -62,6 +64,7 @@ h6#vid_text {
 }
 
 div.questions {
+  float: center;
   opacity: 0.6;
   font-size: 1em;
   background-color: #e0ffff;
@@ -103,6 +106,7 @@ label {
 
 
 h2#text {
+  float: center;
   opacity: 0.6;
   font-size: 0.85em;
   background-color: #e0ffff;
@@ -119,12 +123,7 @@ iframe {
 }
 
 div.contact {
-  opacity: 0.6;
-  background-color: #e0ffff;
-  border-radius: 0.25em;
-  border: 2 solid black;
-  width: 25%;
-  height: 25%;
+  float: center;
 }
 
 li#email {
@@ -198,7 +197,7 @@ li#instagram {
 }
 
 div#me {
-
+  float: center;
   background-repeat: no-repeat;
   background-position: 50%;
   border-radius: 50%;
