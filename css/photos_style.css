@@ -15,8 +15,8 @@ h1#title {
   font-family: papyrus;
   margin: 0 auto;
   opacity: 0.6;
-  width: 75%;
-  height: 75%;
+  width: 25%;
+  height: 25%;
   font-style: bold;
   font-style: underline;
   text-align: center;
@@ -77,13 +77,27 @@ h3 {
   font-family: papyrus;
   margin: 0 auto;
   opacity: 0.6;
-  width: 75%;
-  height: 75%;
+  width: 25%;
+  height: 25%;
   font-style: bold;
   font-style: underline;
   text-align: center;
   background-color: #e0ffff;
   border-radius: 0.25em;
+}
+
+h2#text {
+  font-family: papyrus;
+  margin: 0 auto;
+  opacity: 0.6;
+  font-size: 0.85em;
+  background-color: #e0ffff;
+  border-radius: 0.25em;
+  border: 2 solid black;
+  width: 30%;
+  height: 30%;
+  text-align: center;
+  color: black;
 }
 
 .contact {

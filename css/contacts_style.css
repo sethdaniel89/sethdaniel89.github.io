@@ -69,7 +69,7 @@ h3 {
   margin: 0 auto;
   width: 50%;
   height: 50%;
-  background: url(../photos/bm_logo.png) no-repeat;
+  content: url(../photos/bm_logo.png) no-repeat;
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
@@ -79,7 +79,7 @@ h3 {
   margin: 0 auto;
   width: 50%;
   height: 50%;
-  background: url(../photos/camp_charlie.jpg) no-repeat;
+  content: url(../photos/camp_charlie.jpg) no-repeat;
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
