@@ -27,7 +27,6 @@ a#link {
 
 
 h1#title {
-  align: center;
   opacity: 0.6;
   width: 50%;
   height: 50%;
@@ -36,12 +35,9 @@ h1#title {
   text-align: center;
   background-color: #e0ffff;
   border-radius: 0.25em;
-  horizontal-align: center;
-  vertical-align: center;
 }
 
 article.page_text {
-  align: center;
   opacity: 0.6;
   background-color: #e0ffff;
   border-radius: 0.25em;
@@ -49,8 +45,6 @@ article.page_text {
   width: 50%;
   height: 50%;
   text-align: center;
-  horizontal-align: center;
-  vertical-align: center;
 }
 
 h6#vid_text {
@@ -68,7 +62,6 @@ h6#vid_text {
 }
 
 div.questions {
-  align: center;
   opacity: 0.6;
   font-size: 1em;
   background-color: #e0ffff;
@@ -77,8 +70,6 @@ div.questions {
   width: 50%;
   height: 50%;
   text-align: center;
-  horizontal-align: center;
-  vertical-align: center;
   color: black;
 }
 
@@ -112,7 +103,6 @@ label {
 
 
 h2#text {
-  align: center;
   opacity: 0.6;
   font-size: 0.85em;
   background-color: #e0ffff;
@@ -121,8 +111,6 @@ h2#text {
   width: 30%;
   height: 30%;
   text-align: center;
-  horizontal-align: center;
-  vertical-align: center;
   color: black;
 }
 
@@ -136,10 +124,8 @@ div.contact {
   border-radius: 0.25em;
   border: 2 solid black;
   padding: 25% 25% 25% 25%;
-  width: 50%;
-  height: 50%;
-  horizontal-align: center;
-  vertical-align: center;
+  width: 25%;
+  height: 25%;
 }
 
 li#email {
@@ -210,4 +196,12 @@ li#instagram {
   border-radius: 0.25em;
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
   text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+}
+
+div#me {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
 }
