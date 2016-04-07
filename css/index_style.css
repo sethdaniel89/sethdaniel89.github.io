@@ -30,14 +30,24 @@ h1#title {
   font-family: papyrus;
   margin: 0 auto;
   opacity: 0.6;
-  width: 75%;
-  height: 75%;
+  width: 50%;
+  height: 50%;
   font-style: bold;
   font-style: underline;
   text-align: center;
   background-color: #e0ffff;
   border-radius: 0.25em;
 }
+
+.family {
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  background: url(../photos/family.jpg) no-repeat;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  }
 
 article.page_text {
   font-family: papyrus;
@@ -136,7 +146,6 @@ iframe {
   font-family: papyrus;
   margin: 0 auto;
   opacity: 0.6;
-  background-color: #e0ffff;
   border-radius: 0.25em;
   border: 2 solid black;
 }

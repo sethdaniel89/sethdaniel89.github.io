@@ -65,13 +65,32 @@ h3 {
   border-radius: 0.25em;
 }
 
+.burningorg {
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  background: url(../photos/bm_logo.png) no-repeat;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  }
+
+.campcharlie {
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  background: url(../photos/camp_charlie.jpg) no-repeat;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  }
+
 .contact {
 
   display: inline-block;
   font-family: papyrus;
   margin: 0 auto;
   opacity: 0.6;
-  background-color: #e0ffff;
   border-radius: 0.25em;
   border: 2 solid black;
 }
@@ -169,8 +188,7 @@ a#instagram {
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   }
 
-
-footer {
+  footer {
     font-family: papyrus;
     font-size: 0.85em;
   }
