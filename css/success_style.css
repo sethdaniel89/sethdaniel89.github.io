@@ -2,13 +2,101 @@ body {
   background:url(https://www.fest300.com/system/images/W1siZiIsIjIwMTQvMDYvMTUvMjMvNDcvNTQvNDc3L0J1cm5pbmdfTWFuXzIwMTNfU2lkbmV5X0VydGhhbF8yLmpwZyJdXQ/Burning_Man_2013_Sidney_Erthal%20-%202.jpg); no-repeat; background-attachment:fixed;
 }
 
-nav.navbar {
+main {
+  width: 95%;
+  padding-left: 20px;
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+}
+
+.link {
+  width: 5%;
+  vertical-align: top;
   display: inline-block;
   margin: 1px;
+
+}
+
+#home {
+  top: 0px;
+  position: absolute;
   font-family: papyrus;
+  text-align: center;
   opacity: 0.6;
+  width: 4em;
+  height: 1.5em;
+  color: black;
+  font-style: bold;
+  display: inline-block;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 0.85em;
+  padding: 1em;
+  text-decoration: none;
   border-radius: 0.25em;
-  border: 2 solid black;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+}
+#photos {
+  top: 50px;
+  position: absolute;
+  font-family: papyrus;
+  text-align: center;
+  opacity: 0.6;
+  width: 4em;
+  height: 1.5em;
+  color: black;
+  font-style: bold;
+  display: inline-block;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 0.85em;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+}
+#resources {
+  top: 100px;
+  position: absolute;
+  font-family: papyrus;
+  text-align: center;
+  opacity: 0.6;
+  width: 4em;
+  height: 1.5em;
+  color: black;
+  font-style: bold;
+  display: inline-block;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 0.85em;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+}
+#contacts {
+  top: 150px;
+  position: absolute;
+  font-family: papyrus;
+  text-align: center;
+  opacity: 0.6;
+  width: 4em;
+  height: 1.5em;
+  color: black;
+  font-style: bold;
+  display: inline-block;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 0.85em;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
 }
 
 h1#title {
@@ -35,21 +123,6 @@ h2#text {
   text-align: center;
   background-color: #e0ffff;
   border-radius: 0.25em;
-}
-
-a#link {
-  font-family: papyrus;
-  opacity: 0.6;
-  color: black;
-  font-style: bold;
-  background: #3a3f40;
-  color: #fff;
-  font-size: 0.85em;
-  padding: 1em;
-  text-decoration: none;
-  border-radius: 0.25em;
-  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
 }
 
 .contact {
@@ -143,7 +216,10 @@ a#instagram {
 }
 
 .circular_me {
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
   width: 175px;
   height: 175px;
   border-radius: 100px;
@@ -159,3 +235,87 @@ a#instagram {
     font-family: papyrus;
     font-size: 0.85em;
   }
+
+  @media screen and (max-width: 1000px) {
+  body {
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  body {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .link#home {
+    position: fixed;
+    display: inline-block;
+    top: 0px;
+    left: 0px;
+    margin: auto 0;
+    z-index: 2;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .link#photos {
+    position: fixed;
+    display: inline-block;
+    top: 0px;
+    left: 0px;
+    margin: auto 0;
+    z-index: 2;
+    margin-left: 25%;
+    margin-right: 25%;
+    left: 60px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .link#resources {
+    position: fixed;
+    display: inline-block;
+    top: 0px;
+    left: 0px;
+    margin: auto 0;
+    z-index: 2;
+    margin-left: 25%;
+    margin-right: 25%;
+    left: 120px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .link#contacts {
+    position: fixed;
+    display: inline-block;
+    top: 0px;
+    left: 0px;
+    margin: auto 0;
+    z-index: 2;
+    margin-left: 25%;
+    margin-right: 25%;
+    left: 180px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  main {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    z-index: 1;
+    padding: 0;
+    margin-left: 0px;
+  }
+}
