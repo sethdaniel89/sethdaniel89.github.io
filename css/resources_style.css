@@ -87,7 +87,6 @@ h3#title {
   margin: 0 auto;
   width: 50%;
   height: 50%;
-  content: url(../photos/The_Great_Heads.jpg) no-repeat;
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
