@@ -40,7 +40,10 @@ h1#title {
 }
 
 .family {
+  -webkit-align: center;
   margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 50%;
   height: 50%;
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
@@ -231,11 +234,11 @@ a#instagram {
 
 .circular_me {
   margin: 0 auto;
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
+  width: 175px;
+  height: 175px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
   background: url(../photos/cohesion.jpg) no-repeat;
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
@@ -262,5 +265,33 @@ a#instagram {
 @media screen and (max-width: 500px) {
   body {
     font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #nav.navbar {
+    position: fixed;
+    display: block;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 90px;
+    border-style: solid;
+    border-color: green;
+    background-color: white;
+    border-width: 2px;
+    padding: 10px;
+    z-index: 2
+  }
+}
+
+@media screen and (max-width: 500px) {
+  main {
+    position: relative;
+    top: 110px;
+    width: 90%;
+    z-index: 1;
+    padding: 0;
+    margin-left: 10px;
   }
 }
