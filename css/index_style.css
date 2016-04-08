@@ -9,6 +9,7 @@ main {
   display: inline-block;
   vertical-align: top;
   position: absolute;
+  z-index: 1;
 }
 
 .link {
@@ -16,7 +17,7 @@ main {
   vertical-align: top;
   display: inline-block;
   margin: 1px;
-
+  z-index: 2;
 }
 
 #home {
