@@ -1,0 +1,43 @@
+body {
+  background:url(https://www.fest300.com/system/images/W1siZiIsIjIwMTQvMDYvMTUvMjMvNDcvNTQvNDc3L0J1cm5pbmdfTWFuXzIwMTNfU2lkbmV5X0VydGhhbF8yLmpwZyJdXQ/Burning_Man_2013_Sidney_Erthal%20-%202.jpg); no-repeat; background-attachment: fixed;
+  }
+
+h1#title {
+  font-family: papyrus;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+#home {
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -180px;
+  font-family: papyrus;
+  opacity: 0.6;
+  width: 25%;
+  height: 15%;
+  display: inline-block;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 2em;
+  position: fixed;
+  text-decoration: none;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+}
+
+#home p {
+  text-align: center;
+  vertical-align: center;
+}
+
+footer {
+    font-family: papyrus;
+    font-size: 0.85em;
+    position: absolute;
+    bottom: 0;
+  }
