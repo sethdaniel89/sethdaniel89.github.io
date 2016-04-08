@@ -107,11 +107,7 @@ h1#title {
   opacity: 0.6;
   width: 50%;
   height: 50%;
-  font-style: bold;
-  font-style: underline;
   text-align: center;
-  background-color: #e0ffff;
-  border-radius: 0.25em;
 }
 
 div.links {
