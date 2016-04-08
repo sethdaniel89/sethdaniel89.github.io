@@ -1,5 +1,6 @@
 body {
   background:url(https://www.fest300.com/system/images/W1siZiIsIjIwMTQvMDYvMTUvMjMvNDcvNTQvNDc3L0J1cm5pbmdfTWFuXzIwMTNfU2lkbmV5X0VydGhhbF8yLmpwZyJdXQ/Burning_Man_2013_Sidney_Erthal%20-%202.jpg); no-repeat; background-attachment: fixed;
+  max-width: 100%;
 }
 
 nav.navbar {
@@ -9,6 +10,15 @@ nav.navbar {
   opacity: 0.6;
   border-radius: 0.25em;
   border: 2 solid black;
+  width: 15%;
+  vertical-align: top;
+}
+
+main {
+  width: 75%
+  padding-left: 20px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 a#link {
@@ -40,7 +50,6 @@ h1#title {
 }
 
 .family {
-  -webkit-align: center;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
