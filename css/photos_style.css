@@ -100,12 +100,6 @@ main {
   text-shadow: 0 1px rgba(0, 0, 0, 0.75);
 }
 
-section {
-  margin-left: 5%;
-  width: 80%;
-  height: 80%;
-}
-
 h1#title {
   font-family: papyrus;
   margin: 0 auto;
@@ -113,6 +107,13 @@ h1#title {
   width: 50%;
   height: 50%;
   text-align: center;
+}
+
+/* Photos Page CSS */
+section {
+  margin-left: 5%;
+  width: 80%;
+  height: 80%;
 }
 
 tr {

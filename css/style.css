@@ -1,6 +1,6 @@
 body {
-  background:url(https://www.fest300.com/system/images/W1siZiIsIjIwMTQvMDYvMTUvMjMvNDcvNTQvNDc3L0J1cm5pbmdfTWFuXzIwMTNfU2lkbmV5X0VydGhhbF8yLmpwZyJdXQ/Burning_Man_2013_Sidney_Erthal%20-%202.jpg); no-repeat; background-attachment:fixed;
-}
+  background:url(https://www.fest300.com/system/images/W1siZiIsIjIwMTQvMDYvMTUvMjMvNDcvNTQvNDc3L0J1cm5pbmdfTWFuXzIwMTNfU2lkbmV5X0VydGhhbF8yLmpwZyJdXQ/Burning_Man_2013_Sidney_Erthal%20-%202.jpg); no-repeat; background-attachment: fixed;
+  }
 
 main {
   width: 95%;
@@ -100,6 +100,182 @@ main {
   text-shadow: 0 1px rgba(0, 0, 0, 0.75);
 }
 
+h1#title {
+  font-family: papyrus;
+  margin: 0 auto;
+  opacity: 0.6;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+.family {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+  height: 50%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  }
+
+article.page_text {
+  font-family: papyrus;
+  margin: 0 auto;
+  font-size: 1.25em;
+  padding: 20px;
+  opacity: 0.6;
+  background-color: #e0ffff;
+  border-radius: 0.25em;
+  border: 2 solid black;
+  width: 75%;
+  height: 75%;
+  text-align: center;
+}
+
+h6#vid_text {
+  font-family: papyrus;
+  opacity: 0.6;
+  font-size: 0.85em;
+  background-color: #e0ffff;
+  border-radius: 0.25em;
+  border: 2 solid black;
+  width: 45%;
+  height: 45%;
+  text-align: center;
+  horizontal-align: center;
+  vertical-align: center;
+  color: black;
+}
+
+div.questions {
+  font-family: papyrus;
+  margin: 0 auto;
+  opacity: 0.6;
+  font-size: 1.25em;
+  padding-top: 5px;
+  background-color: #e0ffff;
+  border-radius: 0.5em;
+  border: 2 solid black;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  color: black;
+}
+
+ul {
+  left: -25px;
+  text-align: center;
+  list-style-type: none;
+}
+
+h6#text {
+  font-family: papyrus;
+  opacity: 0.6;
+  font-size: 1.25em;
+  background-color: #e0ffff;
+  border-radius: 0.25em;
+  border: 2 solid black;
+  width: 40%;
+  height: 40%;
+  text-align: center;
+  horizontal-align: center;
+  vertical-align: center;
+}
+
+label {
+  font-family: papyrus;
+  opacity: 0.6;
+  font-size: 0.85em;
+  background-color: #e0ffff;
+  border-radius: 0.25em;
+  border: 2 solid black;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  horizontal-align: center;
+  vertical-align: center;
+  color: black;
+}
+
+.videoWrapper {
+  position: relative;
+  margin-top: 25px;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+.videoWrapper iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+iframe {
+  position:
+}
+
+
+/* Photos Page CSS */
+section#photos {
+  margin-left: 5%;
+  width: 80%;
+  height: 80%;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th {
+    font-weight: bold;
+}
+
+div.image {
+  background: #444444;
+  color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.3s linear 0s;
+  overflow: hidden;
+}
+
+span.caption {
+  font-family: papyrus;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: #e0ffff;
+  border-radius: 0.25em;
+  color: black;
+}
+
+h3 {
+  font-family: papyrus;
+  margin: 0 auto;
+  margin-top: 25px;
+  opacity: 0.6;
+  width: 45%;
+  height: 45%;
+  font-style: bold;
+  font-style: underline;
+  text-align: center;
+  background-color: #e0ffff;
+  border-radius: 0.25em;
+}
+
 h1#alt_title {
   font-family: papyrus;
   margin: 0 auto;
@@ -160,41 +336,6 @@ h3#title {
   border-radius: 0.25em;
 }
 
-.videoWrapper {
-  position: relative;
-  margin-top: 25px;
-  padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
-  height: 0;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-}
-.videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/*.videoWrapper iframe {
-  position: absolute;
-  width: 75%;
-  height: 75%;
-  float: left;
-  clear: left;
-}
-
-.videoWrapper#description {
-  width: 25%;
-  position: relative;
-  float: right;
-  clear: right;
-  text-align: center;
-}*/
-
 #description {
   opacity: 0.8;
   font-family: papyrus;
@@ -224,6 +365,78 @@ h2#text {
   margin: 0 auto;
   text-align: center;
 }
+
+.burningorg {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #3a3f40;
+  width: 50%;
+  height: 50%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  }
+
+.campcharlie {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+  height: 50%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  }
+
+  h1#new_title {
+  margin-top: 200px;
+  font-family: papyrus;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1#enter_title {
+  font-family: papyrus;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+#enter {
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -180px;
+  font-family: papyrus;
+  opacity: 0.6;
+  width: 25%;
+  height: 15%;
+  display: inline-block;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 2em;
+  position: fixed;
+  text-decoration: none;
+  border-radius: 0.25em;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+}
+
+#enter p {
+  text-align: center;
+  vertical-align: center;
+}
+
+footer#enter {
+    font-family: papyrus;
+    font-size: 0.85em;
+    position: absolute;
+    bottom: 0;
+  }
 
 .contact {
 
@@ -332,8 +545,65 @@ a#instagram {
   }
 
   footer {
+    margin-top: 25px;
     font-family: papyrus;
     font-size: 0.85em;
+  }
+
+  section#contact {
+    position: relative;
+    top: 300px;
+  }
+
+  footer#success {
+    margin-top: 25px;
+    top: 650px;
+    font-family: papyrus;
+    font-size: 0.85em;
+    position: absolute;
+    bottom: 0px;
+  }
+
+  h1#enter_title {
+  font-family: papyrus;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+#enter_button {
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -180px;
+  font-family: papyrus;
+  opacity: 0.6;
+  width: 25%;
+  height: 15%;
+  display: inline-block;
+  background: #3a3f40;
+  color: #fff;
+  font-size: 2em;
+  position: fixed;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.25em;
+  vertical-align: center;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+}
+
+#enter p {
+  text-align: center;
+  vertical-align: center;
+}
+
+footer#enter {
+    font-family: papyrus;
+    font-size: 0.85em;
+    position: absolute;
+    bottom: 0;
   }
 
   @media screen and (max-width: 1000px) {
