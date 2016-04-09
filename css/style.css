@@ -1,7 +1,9 @@
+/*This is my combined style sheet for 5 html pages*/
+
 body {
   background:url(https://www.fest300.com/system/images/W1siZiIsIjIwMTQvMDYvMTUvMjMvNDcvNTQvNDc3L0J1cm5pbmdfTWFuXzIwMTNfU2lkbmV5X0VydGhhbF8yLmpwZyJdXQ/Burning_Man_2013_Sidney_Erthal%20-%202.jpg); no-repeat; background-attachment: fixed;
   }
-
+/*This applies for pretty much every page*/
 main {
   width: 95%;
   padding-left: 20px;
@@ -10,6 +12,8 @@ main {
   position: absolute;
   z-index: 1;
 }
+
+/*Navigation bar CSS*/
 
 .link {
   width: 5%;
@@ -39,6 +43,7 @@ main {
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
   text-shadow: 0 1px rgba(0, 0, 0, 0.75);
 }
+
 #photos {
   top: 50px;
   position: absolute;
@@ -59,6 +64,7 @@ main {
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
   text-shadow: 0 1px rgba(0, 0, 0, 0.75);
 }
+
 #resources {
   top: 100px;
   position: absolute;
@@ -79,6 +85,7 @@ main {
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
   text-shadow: 0 1px rgba(0, 0, 0, 0.75);
 }
+
 #contacts {
   top: 150px;
   position: absolute;
@@ -100,6 +107,7 @@ main {
   text-shadow: 0 1px rgba(0, 0, 0, 0.75);
 }
 
+/*Each page title CSS*/
 h1#title {
   font-family: papyrus;
   margin: 0 auto;
@@ -108,7 +116,7 @@ h1#title {
   height: 50%;
   text-align: center;
 }
-
+/*Main page picture*/
 .family {
   margin-left: 25%;
   margin-right: 25%;
@@ -121,6 +129,7 @@ h1#title {
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   }
 
+/*The main paragraph info*/
 article.page_text {
   font-family: papyrus;
   margin: 0 auto;
@@ -135,6 +144,7 @@ article.page_text {
   text-align: center;
 }
 
+/*Video caption text*/
 h6#vid_text {
   font-family: papyrus;
   opacity: 0.6;
@@ -150,6 +160,7 @@ h6#vid_text {
   color: black;
 }
 
+/*Question section CSS*/
 div.questions {
   font-family: papyrus;
   margin: 0 auto;
@@ -185,6 +196,7 @@ h6#text {
   vertical-align: center;
 }
 
+/*Input question box section*/
 label {
   font-family: papyrus;
   opacity: 0.6;
@@ -200,6 +212,7 @@ label {
   color: black;
 }
 
+/*Youtube Video section*/
 .videoWrapper {
   position: relative;
   margin-top: 25px;
@@ -280,6 +293,7 @@ h3 {
   border-radius: 0.25em;
 }
 
+/*Resources Page CSS*/
 h1#alt_title {
   font-family: papyrus;
   margin: 0 auto;
@@ -361,7 +375,7 @@ h3#title {
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   }
 
-
+/*Contacts Page CSS*/
 h2#text {
   margin-top: 25px;
   padding-top: 25px;
@@ -395,53 +409,8 @@ h2#text {
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   }
 
-  h1#new_title {
-  margin-top: 200px;
-  font-family: papyrus;
-  margin: 0 auto;
-  text-align: center;
-}
 
-h1#enter_title {
-  font-family: papyrus;
-  margin: 0 auto;
-  width: 50%;
-  height: 50%;
-  text-align: center;
-}
-
-#enter {
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -180px;
-  font-family: papyrus;
-  opacity: 0.6;
-  width: 25%;
-  height: 15%;
-  display: inline-block;
-  background: #3a3f40;
-  color: #fff;
-  font-size: 2em;
-  position: fixed;
-  text-decoration: none;
-  border-radius: 0.25em;
-  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
-}
-
-#enter p {
-  text-align: center;
-  vertical-align: center;
-}
-
-footer#enter {
-    font-family: papyrus;
-    font-size: 0.85em;
-    position: absolute;
-    bottom: 0;
-  }
-
+/*Main Contact Bottom Section for each page*/
 .contact {
 
   display: inline-block;
@@ -559,6 +528,8 @@ a#instagram {
     top: 300px;
   }
 
+  /*Success Page*/
+
   footer#success {
     margin-top: 25px;
     top: 650px;
@@ -568,7 +539,16 @@ a#instagram {
     bottom: 0px;
   }
 
-  h1#enter_title {
+
+  /*Welcome Page CSS*/
+  h1#new_title {
+  margin-top: 200px;
+  font-family: papyrus;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1#enter_title {
   font-family: papyrus;
   margin: 0 auto;
   width: 50%;
@@ -598,7 +578,7 @@ a#instagram {
   text-shadow: 0 1px rgba(0, 0, 0, 0.75);
 }
 
-#enter p {
+#enter_button p {
   text-align: center;
   vertical-align: center;
 }
@@ -608,6 +588,7 @@ footer#enter {
     font-size: 0.85em;
     position: absolute;
     bottom: 0;
+    top: 650px;
   }
 
   @media screen and (max-width: 1000px) {
