@@ -105,8 +105,8 @@ h1#title {
   margin: 0 auto;
   margin-top: 25px;
   opacity: 0.6;
-  width: 50%;
-  height: 50%;
+  width: 75%;
+  height: 75%;
   text-align: center;
 }
 
@@ -114,13 +114,15 @@ div.links {
   font-family: papyrus;
   margin: 0 auto;
   margin-top: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   opacity: 0.6;
   font-size: 1em;
   background-color: #e0ffff;
   border-radius: 0.25em;
   border: 2 solid black;
-  width: 25%;
-  height: 25%;
+  width: 15%;
+  height: 15%;
   text-align: center;
   color: black;
 }
@@ -128,25 +130,26 @@ div.links {
 
 h2#title {
   font-family: papyrus;
-  font-size: 1em;
+  font-size: 2em;
   margin: 0 auto;
   margin-top: 25px;
+  padding-top: 5px;
   opacity: 0.6;
   width: 65%;
   height: 65%;
-  font-style: bold;
-  font-style: underline;
   text-align: center;
-  background-color: #e0ffff;
-  border-radius: 0.25em;
+  /*background-color: #e0ffff;
+  border-radius: 0.25em;*/
 }
 
 
 h3#title {
   font-family: papyrus;
-  font-size: 1em;
+  font-size: 2em;
   margin: 0 auto;
   margin-top: 25px;
+  margin-bottom: 25px;
+  padding-top: 5px;
   opacity: 0.6;
   width: 45%;
   height: 45%;
@@ -171,8 +174,35 @@ h3#title {
   position: absolute;
   top: 0;
   left: 0;
+  bottom: 0;
   width: 100%;
   height: 100%;
+}
+
+/*.videoWrapper iframe {
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  float: left;
+  clear: left;
+}
+
+.videoWrapper#description {
+  width: 25%;
+  position: relative;
+  float: right;
+  clear: right;
+  text-align: center;
+}*/
+
+#description {
+  opacity: 0.8;
+  font-family: papyrus;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  background-color: #e0ffff;
+  border-radius: 0.25em;
 }
 
 .burning {
@@ -188,17 +218,11 @@ h3#title {
 
 
 h2#text {
+  margin-top: 25px;
+  padding-top: 25px;
   font-family: papyrus;
   margin: 0 auto;
-  opacity: 0.6;
-  font-size: 0.85em;
-  background-color: #e0ffff;
-  border-radius: 0.25em;
-  border: 2 solid black;
-  width: 30%;
-  height: 30%;
   text-align: center;
-  color: black;
 }
 
 .contact {
