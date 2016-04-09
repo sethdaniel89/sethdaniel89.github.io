@@ -224,10 +224,14 @@ iframe {
 
 
 /* Photos Page CSS */
-section#photos {
+#photo_table {
   margin-left: 5%;
   width: 80%;
   height: 80%;
+}
+
+section#below {
+  position: absolute;
 }
 
 tr {
