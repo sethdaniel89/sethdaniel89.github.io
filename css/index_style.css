@@ -124,13 +124,14 @@ h1#title {
 article.page_text {
   font-family: papyrus;
   margin: 0 auto;
+  font-size: 1.25em;
   padding: 20px;
   opacity: 0.6;
   background-color: #e0ffff;
   border-radius: 0.25em;
   border: 2 solid black;
-  width: 50%;
-  height: 50%;
+  width: 75%;
+  height: 75%;
   text-align: center;
 }
 
@@ -141,8 +142,8 @@ h6#vid_text {
   background-color: #e0ffff;
   border-radius: 0.25em;
   border: 2 solid black;
-  width: 40%;
-  height: 40%;
+  width: 45%;
+  height: 45%;
   text-align: center;
   horizontal-align: center;
   vertical-align: center;
@@ -153,9 +154,10 @@ div.questions {
   font-family: papyrus;
   margin: 0 auto;
   opacity: 0.6;
-  font-size: 1em;
+  font-size: 1.25em;
+  padding-top: 5px;
   background-color: #e0ffff;
-  border-radius: 0.25em;
+  border-radius: 0.5em;
   border: 2 solid black;
   width: 50%;
   height: 50%;
@@ -163,10 +165,16 @@ div.questions {
   color: black;
 }
 
+ul {
+  left: -25px;
+  text-align: center;
+  list-style-type: none;
+}
+
 h6#text {
   font-family: papyrus;
   opacity: 0.6;
-  font-size: 0.85em;
+  font-size: 1.25em;
   background-color: #e0ffff;
   border-radius: 0.25em;
   border: 2 solid black;
@@ -175,7 +183,6 @@ h6#text {
   text-align: center;
   horizontal-align: center;
   vertical-align: center;
-  color: black;
 }
 
 label {
@@ -197,15 +204,8 @@ label {
 h2#text {
   font-family: papyrus;
   margin: 0 auto;
-  opacity: 0.6;
-  font-size: 0.85em;
-  background-color: #e0ffff;
-  border-radius: 0.25em;
-  border: 2 solid black;
-  width: 30%;
-  height: 30%;
   text-align: center;
-  color: black;
+  margin-top: 25px;
 }
 
 .videoWrapper {

@@ -107,21 +107,14 @@ h1#title {
   width: 75%;
   height: 75%;
   text-align: center;
-
   border-radius: 0.25em;
 }
 
 h2#text {
+  margin-top: 25px;
   font-family: papyrus;
   margin: 0 auto;
-  opacity: 0.6;
-  width: 100%;
-  height: 100%;
-  font-style: bold;
-  font-style: underline;
   text-align: center;
-
-  border-radius: 0.25em;
 }
 
 .burningorg {
@@ -129,6 +122,7 @@ h2#text {
   margin-right: 25%;
   margin-top: 20px;
   margin-bottom: 20px;
+  background: #3a3f40;
   width: 50%;
   height: 50%;
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);

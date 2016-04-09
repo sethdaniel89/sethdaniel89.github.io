@@ -2,7 +2,8 @@ body {
   background:url(https://www.fest300.com/system/images/W1siZiIsIjIwMTQvMDYvMTUvMjMvNDcvNTQvNDc3L0J1cm5pbmdfTWFuXzIwMTNfU2lkbmV5X0VydGhhbF8yLmpwZyJdXQ/Burning_Man_2013_Sidney_Erthal%20-%202.jpg); no-repeat; background-attachment: fixed;
   }
 
-h1#title {
+
+h1#enter_title {
   font-family: papyrus;
   margin: 0 auto;
   width: 50%;
@@ -10,7 +11,7 @@ h1#title {
   text-align: center;
 }
 
-#home {
+#enter_button {
   top: 50%;
   left: 50%;
   margin-top: -50px;
@@ -24,20 +25,40 @@ h1#title {
   color: #fff;
   font-size: 2em;
   position: fixed;
+  text-align: center;
   text-decoration: none;
   border-radius: 0.25em;
+  vertical-align: center;
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
   text-shadow: 0 1px rgba(0, 0, 0, 0.75);
 }
 
-#home p {
+#enter p {
   text-align: center;
   vertical-align: center;
 }
 
-footer {
+footer#enter {
     font-family: papyrus;
     font-size: 0.85em;
     position: absolute;
     bottom: 0;
   }
+
+  @media screen and (max-width: 1000px) {
+  body {
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  body {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 70%;
+  }
+}

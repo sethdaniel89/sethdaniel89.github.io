@@ -104,9 +104,16 @@ h1#title {
   font-family: papyrus;
   margin: 0 auto;
   opacity: 0.6;
-  width: 25%;
-  height: 25%;
+  width: 50%;
+  height: 50%;
   text-align: center;
+}
+
+/* Photos Page CSS */
+section {
+  margin-left: 5%;
+  width: 80%;
+  height: 80%;
 }
 
 tr {
@@ -133,22 +140,21 @@ div.image {
 
 span.caption {
   font-family: papyrus;
-  opacity: 0.6;
-  width: 75%;
-  height: 75%;
-  font-style: bold;
-  font-style: underline;
+  width: 100%;
+  height: 100%;
   text-align: center;
   background-color: #e0ffff;
   border-radius: 0.25em;
+  color: black;
 }
 
 h3 {
   font-family: papyrus;
   margin: 0 auto;
+  margin-top: 25px;
   opacity: 0.6;
-  width: 25%;
-  height: 25%;
+  width: 45%;
+  height: 45%;
   font-style: bold;
   font-style: underline;
   text-align: center;
@@ -157,17 +163,10 @@ h3 {
 }
 
 h2#text {
+  margin-top: 25px;
   font-family: papyrus;
   margin: 0 auto;
-  opacity: 0.6;
-  font-size: 0.85em;
-  background-color: #e0ffff;
-  border-radius: 0.25em;
-  border: 2 solid black;
-  width: 30%;
-  height: 30%;
   text-align: center;
-  color: black;
 }
 
 .contact {

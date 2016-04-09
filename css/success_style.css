@@ -100,30 +100,18 @@ main {
   text-shadow: 0 1px rgba(0, 0, 0, 0.75);
 }
 
-h1#title {
+h1#new_title {
+  margin-top: 200px;
   font-family: papyrus;
   margin: 0 auto;
-  opacity: 0.6;
-  width: 75%;
-  height: 75%;
-  font-style: bold;
-  font-style: underline;
   text-align: center;
-  background-color: #e0ffff;
-  border-radius: 0.25em;
 }
 
 h2#text {
+  margin-top: 25px;
   font-family: papyrus;
   margin: 0 auto;
-  opacity: 0.6;
-  width: 75%;
-  height: 75%;
-  font-style: bold;
-  font-style: underline;
   text-align: center;
-  background-color: #e0ffff;
-  border-radius: 0.25em;
 }
 
 .contact {
@@ -232,9 +220,18 @@ a#instagram {
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   }
 
-  footer {
+  section#contact {
+    position: relative;
+    top: 300px;
+  }
+
+  footer#success {
+    margin-top: 25px;
+    top: 650px;
     font-family: papyrus;
     font-size: 0.85em;
+    position: absolute;
+    bottom: 0px;
   }
 
   @media screen and (max-width: 1000px) {
