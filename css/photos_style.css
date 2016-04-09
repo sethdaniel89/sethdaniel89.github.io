@@ -110,7 +110,7 @@ h1#title {
 }
 
 /* Photos Page CSS */
-section {
+#photo_table {
   margin-left: 5%;
   width: 80%;
   height: 80%;
